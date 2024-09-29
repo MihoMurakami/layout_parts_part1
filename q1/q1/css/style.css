@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/* 回答はここから */
+.box {
+  display: inline-block;
+  width: 200px;
+  padding: 20px 0;
+  font-size: 16px;
+  background: #fff;
+}
+
+/* Q1-1 text-align */
+.align-box {
+  text-align: center;
+}
+.text-align {
+  display: inline-block;
+  padding: 10px;
+  background: #a4b3e9;
+}
+/* Q1-1 margin */
+  .margin-text {
+    text-align: center;
+    margin: auto;
+    width: 90px;
+    padding: 10px;
+    background: #a4b3e9;
+  }
+
+/* Q1-2 table */
+.display-table {
+  display: table;
+}
+.table {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+}
+.table-text {
+  display: inline-block;
+  background: #a4b3e9;
+  padding: 10px;
+}
+
+/* Q1-2 flex */
+.display-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-box {
+  display: inline-block;
+  text-align: center;
+  background: #fff;
+}
+.flex-text {
+  padding: 10px;
+  background: #a4b3e9;
+}
+
+/* Q1-2 position */
+.container {
+  position: relative;
+}
+.position-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 10px;
+  transform: translate(-50%, -50%);
+  background: #a4b3e9;
+}
